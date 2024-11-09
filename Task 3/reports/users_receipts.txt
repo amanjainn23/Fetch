@@ -1,0 +1,33 @@
+
+        Users & Receipts Data Quality Analysis Report
+        ==========================
+        
+        1. Duplicate Analysis
+        -------------------
+        Users:
+        - Total Records: 495
+        - Unique Records: 212
+        - Duplicate IDs: 283
+        
+        Receipts:
+        - Total Records: 495
+        - Unique Records: 212
+        - Duplicate IDs: 283
+        
+        2. Temporal Analysis
+        ------------------
+        Date Range:
+        - Earliest Creation: 2014-12-19 14:21:22.381000
+        - Latest Creation: 2021-02-12 14:11:06.240000
+        
+        3. User Distribution
+        -----------------
+        By State: {'WI': 396, 'NH': 20, 'AL': 12, 'OH': 5, 'IL': 3, 'KY': 1, 'CO': 1, 'SC': 1}
+        By Role: {'consumer': 413, 'fetch-staff': 82}
+        By Signup Source: {'Email': 443, 'Google': 4}
+        Active Users: 494
+        
+        4. Data Consistency Issues
+        -----------------------
+        Missing values found: {'active': 0, 'role': 0, 'signUpSource': 48, 'state': 56, '_id.$oid': 0, 'createdDate.$date': 0, 'lastLogin.$date': 62, 'createdDate': 0, 'lastLogin': 62}
+        

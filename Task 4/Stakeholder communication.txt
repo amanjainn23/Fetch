@@ -1,0 +1,57 @@
+Subject: Data Quality Assessment and Warehouse Model Proposal
+
+Hi team,
+I've completed the initial analysis of our receipts, users, and brands data sets. I wanted to share some key findings and get your input on a few items.
+Key Findings:
+
+Data Model Improvements
+
+Proposed a normalized structure that separates receipt items into their own table
+Added proper foreign key relationships to improve data integrity
+Created a separate CPG dimension table to better handle brand hierarchies
+
+
+Data Quality Concerns
+
+Found inconsistencies in date fields (scan dates before purchase dates)
+Identified mismatches between item counts and actual items in receipts
+Discovered some referential integrity issues with brand IDs
+Noticed some unusual patterns in points allocation
+
+
+
+Questions and Recommendations:
+
+Data Validation Requirements
+
+Do we have business rules for the minimum time between purchase and scan dates?
+Should we implement automatic validation for point calculations?
+What's the expected behavior for receipt status transitions?
+
+
+Performance Considerations
+
+Planning to implement partitioning on the receipts table by scan date
+Recommending appropriate indexes on frequently joined columns
+Suggesting materialized views for common brand analytics queries
+
+
+Data Enrichment Opportunities
+
+Could we enhance the brand categorization structure?
+Would adding geographic clustering improve analysis capabilities?
+Should we maintain historical points calculation rules?
+
+
+
+Next Steps:
+
+Would love to schedule a brief meeting to discuss these findings
+Need clarification on business rules for data validation
+Would like to review the proposed indexing strategy with the engineering team
+
+Please let me know your thoughts and when would be a good time to discuss these items in detail.
+
+Best regards,
+Aman Jain,
+Analytics Engineer

@@ -1,0 +1,27 @@
+
+    Brand Data Quality Analysis Report
+    --------------------------
+    
+    1. Dataset Size:
+    - Total Records: 1167
+    
+    2. Missing Data Summary:
+    - Fields with missing values: {'total_missing': {'_id': 0, 'barcode': 0, 'category': 155, 'categoryCode': 650, 'cpg': 0, 'name': 0, 'topBrand': 612, 'brandCode': 234}, 'percent_missing': {'_id': 0.0, 'barcode': 0.0, 'category': 13.281919451585262, 'categoryCode': 55.69837189374465, 'cpg': 0.0, 'name': 0.0, 'topBrand': 52.44215938303341, 'brandCode': 20.051413881748072}, 'total_records': {'_id': 1167, 'barcode': 1167, 'category': 1167, 'categoryCode': 1167, 'cpg': 1167, 'name': 1167, 'topBrand': 1167, 'brandCode': 1167}}
+    
+    3. Duplicate Analysis:
+    - Exact duplicates: 0
+    - Barcode duplicates: 7
+    - Name duplicates: 11
+    
+    4. Categorical Consistency:
+    - Unique categories: 24
+    - Category-CategoryCode mismatches: 101
+    
+    5. Barcode Analysis:
+    - Unique barcodes: 1160
+    - Invalid format barcodes: 0
+    
+    6. Brand Analysis:
+    - Brands missing codes: 234
+    - Name-Code mismatches: 1097
+    
