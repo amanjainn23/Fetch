@@ -5,4 +5,4 @@ JOIN Brands b ON r.brandId = b._id
 WHERE u.createdDate >= CURRENT_DATE - INTERVAL '6 months'
 GROUP BY b.name
 ORDER BY total_spent DESC
-LIMIT 1;
+LIMIT 2;
